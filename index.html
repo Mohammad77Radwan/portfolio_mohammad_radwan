@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#skills">Compétences</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#html">HTML</a></li>
+                        <li><a href="#css">CSS</a></li>
+                        <li><a href="#javascript">JavaScript</a></li>
+                        <li><a href="#php">PHP</a></li>
+                        <li><a href="#mysql">MySQL</a></li>
+                        <li><a href="#git">Git</a></li>
+                        <li><a href="#linux">Linux</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+
+
+        <section id="about" class="page-section">
+            <h1>À Propos</h1>
+            <p>Je m'appelle RADWAN MOHAMMAD, étudiant en BTS SIO1, et passionné par le développement web et les technologies informatiques. Au cours de ma formation, j'ai acquis des compétences solides dans des domaines variés, comme le développement web (HTML, CSS, JavaScript, PHP, MySQL), la gestion de versions avec Git, ainsi que la maîtrise des environnements Linux.</p>
+            <p>J'ai participé à des projets pratiques, dont un atelier de professionnalisation sur la gestion des machines virtuelles et l'installation de serveurs GLPI, où j'ai créé des machines virtuelles avec différents systèmes d'exploitation, installé et configuré des serveurs LAMP, et géré des équipements à travers le logiciel GLPI. Ce projet m'a permis de développer des compétences en gestion de serveurs, en automatisation, et en gestion de licences et de contrats.</p>
+            <p>Je continue à approfondir mes connaissances et à explorer de nouvelles technologies afin de devenir un professionnel capable de concevoir, développer et maintenir des systèmes informatiques adaptés aux besoins des utilisateurs et des entreprises.</p>
+
+        </section>
+        
+
+
+    
+        <section id="projects" class="page-section">
+        
+            <section id="carousel" class="page-section">
+                <h1>PROJETS</h1>
+                <div id="carousel-container" class="flex-center">
+                    <button id="prev" class="carousel-button">Prev</button>
+                    <div id="carousel-images">
+                        <img src="/images/html.jpg" alt="HTML" data-target="#html">
+                        <img src="/images/css.jpg" alt="CSS" data-target="#css">
+                        <img src="/images/js.jpg" alt="JavaScript" data-target="#javascript">
+                        <img src="/images/php.jpg" alt="PHP" data-target="#php">
+                        <img src="/images/mysql.png" alt="MySQL" data-target="#mysql">
+                        <img src="/images/git.jpg" alt="Git" data-target="#git">
+                        <img src="/images/linux.jpg" alt="Linux" data-target="#linux"> 
+                    </div>
+                    <button id="next" class="carousel-button">Next</button>
+                </div>
+            </section>
+
+            
+
+            <h2>Projets Notables</h2>
+            <ul>
+                <li><strong>Site Web Portfolio</strong>: Développement de ce site pour présenter mes compétences et réalisations.</li>
+                <br></br>
+                <li><strong>Projet GLPI</strong>: Mise en place d'un serveur GLPI et gestion des machines virtuelles.</li>
+                <ul>
+                    <li><strong></strong> Création de machines virtuelles avec différents systèmes d’exploitation (Windows 10, Debian 11.8 avec et sans interface graphique).</li>
+                    <li><strong></strong> Installation d’un serveur LAMP sur une machine Debian 11 sans interface graphique, avec Apache2, MariaDB et PHP 8.2.</li>
+                    <li><strong></strong> Utilisation de GLPI pour la gestion des licences, fournisseurs, contrats, documents associés, et organisation des équipements par lieu et entité.</li>
+                </ul> 
+            </ul>
+        </section>
+
+
+
+        <section id="html" class="page-section">
+            <h2>HTML</h2>
+            <p>J'ai une solide compréhension des structures HTML, ce qui me permet de créer des pages web accessibles et sémantiques.</p>
+            <p>Je suis capable de structurer des formulaires complexes, d'incorporer des médias tels que des images et des vidéos, et de créer des tableaux de données organisées.</p>
+            <p>Exemples :</p>
+            <ul>
+                <li>Création de formulaires interactifs avec des validations personnalisées.</li>
+                <li>Utilisation des balises sémantiques pour optimiser le référencement SEO.</li>
+                <li>Intégration de contenu multimédia adaptatif.</li>
+            </ul>
+        </section>
+
+
+
+        <section id="css" class="page-section">
+            <h2>CSS</h2>
+            <p>Je maîtrise la mise en page responsive et les techniques modernes de stylisation, y compris Flexbox et Grid, pour concevoir des interfaces utilisateur attrayantes.</p>
+            <p>Avec HTML, je peux créer des structures solides, puis les embellir avec des styles CSS élégants pour rendre les pages web non seulement fonctionnelles, mais aussi esthétiques et faciles à utiliser.</p>
+            <p>Exemples :</p>
+            <ul>
+                <li>Création de mises en page responsive utilisant Flexbox et Grid.</li>
+                <li>Conception de boutons et animations interactifs pour améliorer l'expérience utilisateur.</li>
+                <li>Optimisation des pages pour différents appareils (ordinateurs, tablettes, smartphones).</li>
+            </ul>
+        </section>
+
+
+
+        <section id="javascript" class="page-section">
+            <h2>JavaScript</h2>
+                <p>Je maîtrise JavaScript pour développer des interactions dynamiques sur le web. J'utilise les fonctionnalités du DOM (Document Object Model), je gère des événements utilisateurs, j'écris des fonctions pour structurer mon code, et je travaille avec des boucles telles que <code>while</code>, <code>for</code>, et <code>forEach</code> pour parcourir des données. De plus, je suis capable de manipuler des tableaux et de créer des classes pour utiliser la programmation orientée objet.</p>
+            
+                <p><strong>DOM :</strong> Le DOM me permet d'interagir avec les éléments d'une page web et de modifier leur contenu. Par exemple, je peux changer dynamiquement le texte ou les styles d'un élément HTML.</p>
+                <ul>
+                    <li>Exemple : Manipulation du texte d'un élément HTML via JavaScript.</li>
+                </ul>
+            
+                <p><strong>Événements :</strong> Je gère les interactions de l'utilisateur avec la page, comme les clics, les touches de clavier, et plus encore. Je peux ajouter des événements à différents éléments pour rendre la page interactive.</p>
+                <ul>
+                    <li>Exemple : Ajout d'un événement au clic sur un bouton pour afficher une alerte.</li>
+                </ul>
+            
+                <p><strong>Fonctions :</strong> Je définis des fonctions pour organiser et réutiliser mon code. Les fonctions permettent de structurer des blocs de logique que je peux appeler plusieurs fois avec différents paramètres.</p>
+                <ul>
+                    <li>Exemple : Définition d'une fonction pour additionner deux nombres.</li>
+                </ul>
+            
+                <p><strong>Boucles :</strong> Les boucles telles que <code>while</code>, <code>for</code>, et <code>forEach</code> me permettent de répéter des actions sur des ensembles de données, comme parcourir un tableau ou effectuer des calculs.</p>
+                <ul>
+                    <li>Exemple : Utilisation de la boucle <code>for</code> pour afficher les éléments d'un tableau.</li>
+                </ul>
+            
+                <p><strong>Tableaux :</strong> Je suis capable de manipuler des tableaux, d'ajouter des éléments, de supprimer des éléments, ou de parcourir des données contenues dans un tableau pour effectuer des actions spécifiques.</p>
+                <ul>
+                    <li>Exemple : Manipulation d'un tableau HTML en ajoutant une nouvelle ligne.</li>
+                </ul>
+            
+                <p><strong>Classes :</strong> Je maîtrise la création et l'utilisation de classes en JavaScript pour la programmation orientée objet. Cela me permet de créer des objets complexes avec des propriétés et des méthodes associées.</p>
+                <ul>
+                    <li>Exemple : Création d'une classe "Voiture" et utilisation pour instancier des objets.</li>
+                </ul>
+            
+        </section>
+
+
+
+        <section id="php" class="page-section">
+            <h2>PHP</h2>
+            <p>Je suis familiarisé avec le développement de scripts côté serveur pour gérer la logique des applications web, comme le traitement des formulaires et la connexion aux bases de données.</p>
+            <p>En plus de l'utilisation de PHP pour la gestion des serveurs, je l'intègre souvent avec HTML pour créer des pages dynamiques en fonction des actions des utilisateurs.</p>
+            <p>Exemples :</p>
+            <ul>
+                <li>Création de formulaires de contact en PHP pour traiter les messages envoyés par les utilisateurs.</li>
+                <li>Gestion des sessions utilisateurs pour offrir une expérience personnalisée sur les sites web.</li>
+                <li>Connexion à une base de données MySQL pour afficher des informations dynamiques (par exemple, articles de blog).</li>
+            </ul>
+        </section>
+
+
+
+        <section id="mysql" class="page-section">
+            <h2>MySQL</h2>
+            <p>Je sais concevoir des bases de données relationnelles et rédiger des requêtes SQL pour interagir avec les données de manière efficace.</p>
+            <p>En utilisant MySQL, j'optimise les performances des bases de données et crée des systèmes robustes pour gérer de grandes quantités d'informations.</p>
+            <p>Exemples :</p>
+            <ul>
+                <li>Création de bases de données pour stocker les informations utilisateur sur un site web dynamique.</li>
+                <li>Écriture de requêtes SQL pour filtrer, insérer et mettre à jour des données dans une base de données.</li>
+                <li>Utilisation des jointures pour récupérer des données provenant de plusieurs tables interconnectées.</li>
+            </ul>
+        </section>
+
+
+
+        <section id="git" class="page-section">
+            <h2>Git</h2>
+            <p>Je maîtrise Git pour le contrôle de version, ce qui me permet de gérer efficacement les différentes versions d'un projet, de collaborer avec d'autres développeurs et de maintenir l'intégrité du code à travers des commits réguliers.</p>
+            <p>Je l'utilise régulièrement pour suivre l'évolution de mes projets, collaborer sur des projets open-source, et gérer des branches pour tester de nouvelles fonctionnalités sans affecter le code principal.</p>
+            <p>Exemples :</p>
+            <ul>
+                <li>Utilisation de commandes Git comme `git clone`, `git pull`, et `git push` pour synchroniser un projet avec un dépôt distant.</li>
+                <li>Création de branches pour travailler sur des fonctionnalités spécifiques et résolution de conflits de fusion avec des commandes comme `git merge` et `git rebase`.</li>
+                <li>Suivi de l'historique des modifications avec `git log` et restauration de versions précédentes avec `git checkout`.</li>
+            </ul>
+        </section>
+        
+
+
+        <section id="linux" class="page-section">
+            <h2>Linux</h2>
+            <p>Je suis compétent dans l'administration et la gestion de systèmes Linux, ce qui inclut l'utilisation de la ligne de commande pour effectuer diverses tâches d'administration et de gestion de serveurs.</p>
+            <p>Exemples de compétences :</p>
+            <ul>
+                <li><strong>Gestion de processus Linux</strong> : Surveillance et gestion des processus en cours, utilisation de commandes comme `ps`, `top`, `kill`.</li>
+                <li><strong>Droits Linux et création d’utilisateur et de groupe</strong> : Attribution de droits d'accès, création de groupes et d'utilisateurs avec des commandes comme `useradd`, `chmod`, `chown`.</li>
+                <li><strong>RAID</strong> : Configuration et gestion de RAID pour garantir la redondance des données et améliorer la performance du stockage avec des outils comme `mdadm`.</li>
+                <li><strong>Partage Samba</strong> : Mise en place de serveurs Samba pour le partage de fichiers entre systèmes Linux et Windows.</li>
+                <li><strong>GLPI</strong> : Installation et configuration de GLPI pour la gestion des ressources informatiques et la gestion de tickets d'incidents.</li>
+                <li><strong>Machines virtuelles</strong> : Création et gestion de machines virtuelles avec des outils comme VirtualBox et KVM.</li>
+                <li><strong>Nginx</strong> : Configuration d'un serveur web Nginx pour servir des applications web de manière efficace et sécurisée.</li>
+            </ul>
+        </section>
+    </main>
+
+
+    <section id="skills" class="page-section">
+        <h2>Compétences</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%"></div>
+                </div>
+                <p>90% - Compétence avancée dans la création de structures HTML sémantiques et la gestion des formulaires.</p>
+            </div>
+    
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
+                </div>
+                <p>85% - Bonne maîtrise des mises en page responsives, Flexbox et Grid.</p>
+            </div>
+    
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%"></div>
+                </div>
+                <p>80% - Compétence solide dans la manipulation du DOM, gestion des événements et programmation orientée objet.</p>
+            </div>
+    
+            <div class="skill">
+                <h3>PHP</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%"></div>
+                </div>
+                <p>75% - Connaissance de la logique des applications côté serveur et des bases de données.</p>
+            </div>
+    
+            <div class="skill">
+                <h3>MySQL</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%"></div>
+                </div>
+                <p>70% - Conception de bases de données relationnelles et rédaction de requêtes SQL efficaces.</p>
+            </div>
+    
+            <div class="skill">
+                <h3>Git</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%"></div>
+                </div>
+                <p>80% - Maîtrise de la gestion de versions, des branches et de la collaboration en équipe.</p>
+            </div>
+    
+            <div class="skill">
+                <h3>Linux</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
+                </div>
+                <p>85% - Compétence dans l'administration des systèmes Linux, la gestion des processus et l’utilisation de la ligne de commande.</p>
+            </div>
+        </div>
+    </section>    
+
+
+
+
+
+    <section id="contact" class="page-section">
+        <h1>Contact</h1>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Informations de Contact</h2>
+                <p><strong>Téléphone:</strong> +33 07 66 31 43 41</p>
+                <p><strong>Adresse:</strong> 42390, Villars, France</p>
+                <p><strong>Email:</strong> mohammadradwan804@gmail.com</p>
+            </div>
+    
+
+
+            <form id="contact-form">
+                <h2>Envoyez-moi un message</h2>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+</body>
+</html>
