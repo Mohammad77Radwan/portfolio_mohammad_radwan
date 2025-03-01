@@ -78,25 +78,23 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-  const form = document.getElementById('contact-form');
+    const form = document.getElementById('contact-form');
 
-  form.addEventListener('submit', async function (event) {
-    event.preventDefault();
+    form.addEventListener('submit', async function (event) {
+        event.preventDefault();
 
-    const formData = new FormData(form);
-    const response = await fetch(form.action, {
-      method: form.method,
-      body: formData,
-      headers: {
-        'Accept': 'application/json'
-      }
+        const formData = new FormData(form);
+        const response = await fetch(form.action, {
+            method: form.method,
+            body: formData,
+            headers: { 'Accept': 'application/json' }
+        });
+
+        if (response.ok) {
+            alert('Message envoyé avec succès !');
+            form.reset();
+        } else {
+            alert('Erreur lors de l’envoi du message.');
+        }
     });
-
-    if (response.ok) {
-      alert('Thank you for your message!');
-      form.reset();
-    } else {
-      alert('Oops! There was a problem submitting your form.');
-    }
-  });
 });
